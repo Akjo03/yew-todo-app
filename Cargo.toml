@@ -1,0 +1,25 @@
+[package]
+name = "todo-app"
+version = "0.1.0"
+authors = ["Lukas Küffer <lukas.kueffer@outlook.com>"]
+edition = "2021"
+
+[dependencies]
+bounce = { version = "0.3.0", features = ["helmet"] }
+getrandom = { version = "0.2.8", features = ["js"] }
+log = "0.4.17"
+serde = { version = "1.0.147", features = ["derive"] }
+serde_json = "1.0.88"
+thiserror = "1.0.37"
+uuid = { version = "1.2.2", features = ["fast-rng", "v4", "serde"] }
+wasm-bindgen = "0.2.83"
+wasm-bindgen-futures = "0.4.33"
+wasm-logger = "0.2.0"
+yew = "0.19.3"
+yew-router = "0.16.0"
+yew_icons = { version = "0.6.1", features = [
+    "heroicons_outline"
+]}
+
+[dev-dependencies]
+anyhow = "1.0.66"

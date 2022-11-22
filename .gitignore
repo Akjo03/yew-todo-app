@@ -1,0 +1,4 @@
+dist/
+target/
+.VSCodeCounter/
+styles/tailwind.css
